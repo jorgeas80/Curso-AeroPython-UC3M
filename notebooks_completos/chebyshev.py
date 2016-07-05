@@ -10,8 +10,8 @@ parser = argparse.ArgumentParser(description=help_text, epilog=sign_off)
 # Add the command line options
 parser.add_argument('-k', '--npts',  dest='npts',  type=int,   default=512, metavar='k', help='Número de puntos a graficar')
 parser.add_argument('-x', '--limit', dest='limit', type=float, default=1.0, metavar='X', help='Rango de valores para x.')
-parser.add_argument('-m', '--min',   dest='min',   type=int,   default=1,   metavar='M', help='Orden mínimo del polinomio.')
-parser.add_argument('-n', '--max',   dest='max',   type=int,   default=3,   metavar='N', help='Orden maximo del polinomio.')
+parser.add_argument('-m', '--min',   dest='min',   type=int,   default=1,   metavar='m', help='Orden mínimo del polinomio.')
+parser.add_argument('-M', '--max',   dest='max',   type=int,   default=3,   metavar='M', help='Orden maximo del polinomio.')
 parser.add_argument('-t', '--title', dest='title', type=str,   default='',  metavar='title', help='Título de la gráfica')
 parser.add_argument(                 dest='file',  type=argparse.FileType('wb'),  metavar='fname', help='Nombre del fichero para guardar la gráfica (obligatorio)')
 
