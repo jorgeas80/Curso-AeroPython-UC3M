@@ -9,7 +9,8 @@ def snooze(i):
     print("Proceso {} despierto".format(i))
 
 def main():
-    pool = Pool(processes=2) # numero de cpus
+    # numero de cpus. Si no le pasamos nada, coge os.cpu_count(), disponible a partir de Python 3.4
+    pool = Pool(processes=2)
     results = []
 
     for i in range(10):
