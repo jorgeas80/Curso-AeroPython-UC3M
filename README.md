@@ -1,4 +1,6 @@
-# Curso AeroPython UC3M
+# Curso Python para Ingenieros
+
+Basado en el curso de AeroPython UC3M
 
 <img src="./static/aeropython_name_mini.png" alt="AeroPython" align="center" style="width: 300px;"/>
 
